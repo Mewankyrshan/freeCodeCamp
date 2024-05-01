@@ -1,0 +1,21 @@
+:root{
+    background-color: beige;
+}
+
+#title {
+    text-align: center;
+}
+
+#img-div {
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+    padding: 5px 5px;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
