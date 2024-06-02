@@ -1,0 +1,85 @@
+/* General settings for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container styling */
+main {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #BB86FC;
+}
+
+/* Phone container styling */
+.phone-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+/* Result div styling */
+#results-div {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+/* Phone footer (button container) styling */
+.phone-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #BB86FC;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #3700B3;
+}
+
+/* Focused input field styling */
+input[type="text"]:focus {
+    outline: none;
+    background-color: #444444;
+}
